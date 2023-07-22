@@ -1,0 +1,82 @@
+import React from 'react';
+
+export default function ClusterOf8() {
+  const fill = 'white';
+
+  return (
+    <svg x="0" y="0">
+      <circle
+        id="circle1"
+        r="28"
+        cx="75"
+        cy="150"
+        fill={fill}
+        strokeWidth="1"
+        stroke="black"
+      />
+      <circle
+        id="circle2"
+        r="93"
+        cx="140"
+        cy="160"
+        fill={fill}
+        strokeWidth="1"
+        stroke="black"
+      />
+      <circle
+        id="circle3"
+        r="38"
+        cx="140"
+        cy="115"
+        fill={fill}
+        strokeWidth="1"
+        stroke="black"
+      />
+      <circle
+        id="circle4"
+        r="33"
+        cx="105"
+        cy="145"
+        fill={fill}
+        strokeWidth="1"
+        stroke="black"
+      />
+      <circle
+        id="circle5"
+        r="32"
+        cx="130"
+        cy="50"
+        fill={fill}
+        strokeWidth="1"
+        stroke="black"
+      />
+      <circle
+        id="circle6"
+        r="32"
+        cx="105"
+        cy="80"
+        fill={fill}
+        strokeWidth="1"
+        stroke="black"
+      />
+      <circle
+        id="circle7"
+        r="28"
+        cx="185"
+        cy="125"
+        fill={fill}
+        strokeWidth="1"
+        stroke="black"
+      />
+      <circle
+        id="circle8"
+        r="38"
+        cx="160"
+        cy="65"
+        fill={fill}
+        strokeWidth="1"
+        stroke="black"
+      />
+    </svg>
+  );
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  background-image: url('./IMG_3582.jpeg');
+  background-repeat: no-repeat;
+  background-position-y: -200px;
+  background-position-x: 120%;
+  background-size: 130%;
+  width: 250px;
+  height: 220px;
+}
+
+#radiusNumber {
+  margin-top: 300px;
+}
+
+#coords {
+  color: black;
+}
